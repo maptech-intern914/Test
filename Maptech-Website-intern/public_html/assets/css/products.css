@@ -1,0 +1,1019 @@
+.fit {
+  height: auto;
+  max-width: 100%;
+}
+
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+
+
+#call-to-action_sangfor {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-sangfor/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_fortinet {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-fortinet/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_sophos {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-sophos/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_seqrite {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-seqrite/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_escan {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-escan/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_panda {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-panda/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_eset {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-eset/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_varonis {
+  padding: 120px 0px;
+  background-image:url(../../products/cybersecurity-varonis/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_sundray {
+  padding: 120px 0px;
+  background-image:url(../../products/sundray-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_logitech {
+  padding: 120px 0px;
+  background-image:url(../../products/logitech-videoconferencing/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_a4tech {
+  padding: 120px 0px;
+  background-image:url(../../products/a4tech-peripherals/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_acer-peripherals {
+  padding: 120px 0px;
+  background-image:url(../../products/acer-peripherals/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_logitech-peripherals {
+  padding: 120px 0px;
+  background-image:url(../../products/logitech-peripherals/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_epson-consumables {
+  padding: 120px 0px;
+  background-image:url(../../products/epson-consumables/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_brother-consumables {
+  padding: 120px 0px;
+  background-image:url(../../products/brother-consumables/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_canon-consumables {
+  padding: 120px 0px;
+  background-image:url(../../products/canon-consumables/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_peplink {
+  padding: 120px 0px;
+  background-image:url(../../products/peplink/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_fatpipe {
+  padding: 120px 0px;
+  background-image:url(../../products/fatpipe/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_lg-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/lg-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_samsung-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/samsung-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_aoc-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/aoc-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_viewsonic-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/viewsonic-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_lenovo-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/lenovo-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_benq-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/benq-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_hp-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/hp-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dell-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/dell-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_h3c-storage {
+  padding: 120px 0px;
+  background-image:url(../../products/h3c-storage/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_qnap-storage {
+  padding: 120px 0px;
+  background-image:url(../../products/qnap-storage/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_synology-storage {
+  padding: 120px 0px;
+  background-image:url(../../products/synology-storage/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dellemc-storage {
+  padding: 120px 0px;
+  background-image:url(../../products/dellemc-storage/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_vertiv-ups {
+  padding: 120px 0px;
+  background-image:url(../../products/vertiv-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_apc-ups {
+  padding: 120px 0px;
+  background-image:url(../../products/apc-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_eaton-ups {
+  padding: 120px 0px;
+  background-image:url(../../products/eaton-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_awp-ups {
+  padding: 120px 0px;
+  background-image:url(../../products/awp-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_kstarups-ups {
+  padding: 120px 0px;
+  background-image:url(../../products/kstarups-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_hikvision-biometrics {
+  padding: 120px 0px;
+  background-image:url(../../products/hikvision-biometrics/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dahua-biometrics {
+  padding: 120px 0px;
+  background-image:url(../../products/dahua-biometrics/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_zkteco-biometrics {
+  padding: 120px 0px;
+  background-image:url(../../products/zkteco-biometrics/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_zkteco-dooraccess {
+  padding: 120px 0px;
+  background-image:url(../../products/zkteco-dooraccess/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dahua-dooraccess {
+  padding: 120px 0px;
+  background-image:url(../../products/dahua-dooraccess/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_hikvision-dooraccess {
+  padding: 120px 0px;
+  background-image:url(../../products/hikvision-dooraccess/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_grandstream-telephony {
+  padding: 120px 0px;
+  background-image:url(../../products/grandstream-telephony/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_nec-telephony {
+  padding: 120px 0px;
+  background-image:url(../../products/nec-telephony/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_yeastar-telephony {
+  padding: 120px 0px;
+  background-image:url(../../products/yeastar-telephony/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_litech-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/litech-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_panduit-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/panduit-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_commscope-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/commscope-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_belden-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/belden-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_leviton-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/leviton-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_fiberrex-fiberoptic {
+  padding: 120px 0px;
+  background-image:url(../../products/fiberrex-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dahua-cctv {
+  padding: 120px 0px;
+  background-image:url(../../products/dahua-cctv/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_hikvision-cctv {
+  padding: 120px 0px;
+  background-image:url(../../products/hikvision-cctv/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_maipu-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/maipu-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_h3c-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/h3c-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_hpearuba-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/hpearuba-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_dlink-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/dlink-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_extreme-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/extreme-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_ruijie-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/ruijie-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_bdcom-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/bdcom-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_tplink-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/tplink-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_ubiquiti-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/ubiquiti-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_cisco-wap {
+  padding: 120px 0px;
+  background-image:url(../../products/cisco-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_alliedtelesis {
+  padding: 120px 0px;
+  background-image:url(../../products/alliedtelesis-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.products-catalog-section {
+  padding: 96px 0 26px;
+  background: #f4f7fa;
+}
+
+.products-browse-heading {
+  margin: 0 0 25px;
+}
+
+.products-eyebrow {
+  margin: 0 0 8px;
+  color: #39a922;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.products-browse-heading h1 {
+  margin: 0 0 7px;
+  color: #172b43;
+  font-size: clamp(28px, 3vw, 34px);
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1.2;
+}
+
+.products-browse-heading > p:last-child {
+  margin: 0;
+  color: #67768a;
+  font-size: 14px;
+}
+
+.products-search {
+  max-width: 1800px;
+  margin: 0 0 22px;
+}
+
+.products-search label {
+  display: block;
+  margin: 0 0 8px;
+  color: #172b43;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.products-search-field {
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 15px;
+  border: 1px solid #d8e0e9;
+  border-radius: 6px;
+  background: #fff;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+
+.products-search-field:focus-within {
+  border-color: #2865a8;
+  box-shadow: 0 0 0 3px rgba(40, 101, 168, .12);
+}
+
+.products-search-field > i {
+  color: #2865a8;
+  font-size: 17px;
+}
+
+.products-search-field input {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #172b43;
+  font: inherit;
+  font-size: 14px;
+}
+
+.products-search-field input::placeholder {
+  color: #98a4b2;
+}
+
+.products-search-clear {
+  display: inline-grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: #eef2f6;
+  color: #67768a;
+  cursor: pointer;
+}
+
+.products-search-clear:hover {
+  background: #e0e8f0;
+  color: #172b43;
+}
+
+.products-search-clear[hidden],
+.products-empty-state[hidden] {
+  display: none;
+}
+
+.products-search-status {
+  min-height: 18px;
+  margin: 7px 0 0;
+  color: #67768a;
+  font-size: 12px;
+}
+
+body.products-search-active main section.portfolio:not([hidden]) [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+  transition: none !important;
+}
+
+.products-category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 19px;
+  border-top: 1px solid #e1e7ee;
+}
+
+.products-category-nav a {
+  display: inline-flex;
+  min-height: 35px;
+  align-items: center;
+  padding: 7px 12px;
+  border: 1px solid #e1e7ee;
+  border-radius: 4px;
+  background: #fff;
+  color: #46576b;
+  font-size: 12px;
+  font-weight: 600;
+  transition: border-color .2s ease, background .2s ease, color .2s ease;
+}
+
+.products-category-nav a:hover,
+.products-category-nav a:focus-visible {
+  border-color: #b8d5ee;
+  background: #f1f7fc;
+  color: #2865a8;
+}
+
+.products-empty-state {
+  margin: 18px 0 0;
+  padding: 18px;
+  border: 1px dashed #cbd5e0;
+  border-radius: 6px;
+  color: #67768a;
+  text-align: center;
+}
+
+#header.header-area {
+  height: 80px;
+  padding: 0;
+  background: rgba(250, 250, 250, .98);
+  box-shadow: 0 2px 12px rgba(22, 35, 29, .12);
+}
+
+#header.header-area > .container {
+  position: relative;
+  height: 100%;
+}
+
+#header.header-area .logo {
+  margin: 0 auto 0 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#header.header-area .logo img {
+  display: block;
+  width: auto;
+  max-width: 190px;
+  max-height: 54px;
+}
+
+#header.header-area #navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: auto;
+  padding: 0;
+}
+
+#header.header-area #navbar > ul.nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#header.header-area #navbar > ul.nav > li {
+  padding: 0;
+}
+
+#header.header-area #navbar > ul.nav > li > a {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border-radius: 3px;
+  color: #fff;
+  background: #39a922;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .4px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+#header.header-area #navbar > ul.nav > li > a:hover,
+#header.header-area #navbar > ul.nav > li > a:focus-visible {
+  color: #fff;
+  background: #287a1b;
+}
+
+#header.header-area #navbar .mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .products-catalog-section {
+    padding: 76px 0 22px;
+  }
+
+  .products-category-nav {
+    gap: 7px;
+  }
+
+  .products-category-nav a {
+    padding: 6px 9px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 573px) {
+  #header.header-area .logo {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  #header.header-area #navbar > ul.nav {
+    display: none;
+  }
+
+  #header.header-area #navbar .mobile-nav-toggle {
+    display: block;
+    position: relative;
+    z-index: 1002;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    border: 0 !important;
+    border-radius: 0;
+    color: #263342;
+    background: transparent !important;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: none !important;
+  }
+
+  #header.header-area #navbar.navbar-mobile {
+    position: fixed;
+    inset: 0;
+    z-index: 1200;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background: rgba(18, 24, 22, .34);
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    display: block;
+    width: min(420px, 100%);
+    height: 100vh;
+    max-height: 100dvh;
+    margin: 0;
+    padding: 74px 20px 24px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: -12px 0 34px rgba(14, 24, 20, .14);
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav > li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e6e9e6;
+    background: #fff;
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav > li > a {
+    display: flex;
+    width: 100%;
+    min-height: 52px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 14px 16px;
+    border-radius: 0;
+    color: #263342;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav > li > a:hover,
+  #header.header-area #navbar.navbar-mobile > ul.nav > li > a:focus-visible {
+    color: #287a1b;
+    background: #f7fbf6;
+  }
+
+  #header.header-area #navbar.navbar-mobile .mobile-nav-toggle {
+    position: fixed !important;
+    top: 14px !important;
+    right: 18px !important;
+    left: auto !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-search {
+    margin: 0 0 22px;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-search-field {
+    min-height: 46px;
+    gap: 10px;
+    padding: 0 13px;
+    border: 1px solid #cfd8d1;
+    border-radius: 6px;
+    box-shadow: none;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-search-field input {
+    padding: 8px 0;
+    font-size: 15px;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-search-status {
+    margin-top: 6px;
+    font-size: 11px;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-category-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    border-top: 1px solid #e6e9e6;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-category-nav::before {
+    padding: 12px 0 8px;
+    color: #6c7471;
+    content: "Browse by category";
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+  }
+
+  #header.header-area #navbar.navbar-mobile .products-category-nav a {
+    display: flex;
+    min-height: 52px !important;
+    align-items: center;
+    padding: 14px 16px !important;
+    border: 0;
+    border-bottom: 1px solid #e6e9e6;
+    border-radius: 0;
+    color: #232d39;
+    background: transparent;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav > li:last-child {
+    margin-top: 14px;
+    border-bottom: 0;
+    background: transparent;
+  }
+
+  #header.header-area #navbar.navbar-mobile > ul.nav > li:last-child > a {
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    color: #fff !important;
+    background: #39a922;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  #header.header-area #navbar .mobile-nav-toggle {
+    position: fixed;
+    top: 14px;
+    right: 18px;
+    z-index: 1201;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .products-search-field,
+  .products-category-nav a {
+    transition: none;
+  }
+}

@@ -1,0 +1,411 @@
+.maptech-carousel-section {
+  padding: 88px 0;
+  background: #f7f9f7;
+}
+.maptech-carousel-container {
+  width: min(1140px, calc(100% - 40px));
+  margin: 0 auto;
+}
+.maptech-carousel-heading {
+  max-width: 700px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+.maptech-carousel-eyebrow {
+  margin: 0 0 8px;
+  color: #36521c;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.maptech-carousel-heading h1,
+.maptech-carousel-heading h2 {
+  margin: 0 0 12px;
+  color: #1e2b3b;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.maptech-carousel-heading > p:last-child {
+  margin: 0;
+  color: #66717d;
+  line-height: 1.7;
+}
+.maptech-carousel {
+  --maptech-carousel-gap: 22px;
+}
+.maptech-carousel-track {
+  display: flex;
+  gap: var(--maptech-carousel-gap);
+  overflow-x: auto;
+  margin: 0;
+  padding: 8px 2px 18px;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.maptech-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+.maptech-carousel-slide {
+  flex: 0 0 calc((100% - var(--maptech-carousel-gap)) / 2);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  scroll-snap-align: start;
+}
+.maptech-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 6px;
+}
+.maptech-carousel-arrow {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid #d9e0dc;
+  border-radius: 50%;
+  background: #fff;
+  color: #1e2b3b;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.maptech-carousel-arrow:hover:not(:disabled) {
+  border-color: #36521c;
+  background: #36521c;
+  color: #fff;
+}
+.maptech-carousel-arrow:focus-visible,
+.maptech-carousel-dot:focus-visible,
+.maptech-partner-card:focus-visible,
+.maptech-partners-cta a:focus-visible {
+  outline: 3px solid #54c948;
+  outline-offset: 3px;
+}
+.maptech-carousel-arrow:disabled {
+  opacity: .42;
+  cursor: default;
+}
+.maptech-carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.maptech-carousel-dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #c7d0c9;
+  cursor: pointer;
+  transition: transform .2s ease, background .2s ease;
+}
+.maptech-carousel-dot[aria-current="true"] {
+  transform: scale(1.25);
+  background: #36521c;
+}
+.maptech-carousel-toggle {
+  min-height: 38px;
+  padding: 7px 12px;
+  border: 1px solid #d9e0dc;
+  border-radius: 5px;
+  background: #fff;
+  color: #263342;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.maptech-carousel-toggle:hover {
+  border-color: #36521c;
+  background: #36521c;
+  color: #fff;
+}
+.maptech-testimonials {
+  padding: 64px 0 72px;
+  background: #fff;
+}
+.maptech-testimonials .maptech-carousel-container {
+  width: min(1240px, calc(100% - 40px));
+}
+.maptech-testimonials .maptech-carousel-heading {
+  margin-bottom: 28px;
+}
+.maptech-testimonial-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: minmax(320px, 1fr);
+  align-items: stretch;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.maptech-testimonial-item {
+  min-width: 0;
+  margin: 0;
+}
+.maptech-testimonial-card {
+  display: flex;
+  min-height: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid #e4eae5;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 35px rgba(30, 43, 59, .07);
+}
+.maptech-testimonial-mark {
+  height: 30px;
+  flex: 0 0 30px;
+  color: #345f2f;
+  font-family: Georgia, serif;
+  font-size: 48px;
+  line-height: 1;
+}
+.maptech-testimonial-rating {
+  display: block;
+  margin-bottom: 8px;
+  color: #FFDF00;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+.maptech-testimonial-placeholder {
+  flex: 1;
+  margin: 0 0 18px;
+  color: #586575;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.maptech-testimonial-attribution {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid #e7ece8;
+}
+.maptech-testimonial-attribution img {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.maptech-testimonial-attribution div {
+  display: grid;
+  gap: 3px;
+}
+.maptech-testimonial-attribution strong {
+  color: #1e2b3b;
+  font-size: 14px;
+}
+.maptech-testimonial-attribution span {
+  color: #758078;
+  font-size: 13px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .maptech-testimonial-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: minmax(300px, 1fr);
+    gap: 20px;
+  }
+}
+.maptech-partners-section {
+  background: #f7f9f7;
+  overflow-x: clip;
+}
+.maptech-partners-marquee {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+  cursor: grab;
+  touch-action: pan-y;
+}
+.maptech-partners-track {
+  display: flex;
+  width: max-content;
+  align-items: stretch;
+  animation: maptech-partners-marquee 42s linear infinite;
+  will-change: transform;
+  user-select: none;
+}
+.maptech-partners-group {
+  display: flex;
+  width: max-content;
+  flex: 0 0 auto;
+  gap: 20px;
+  margin: 0;
+  padding: 8px 20px 18px 2px;
+  overflow: visible;
+  list-style: none;
+}
+.maptech-partners-group .maptech-carousel-slide {
+  flex: 0 0 400px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.maptech-partners-marquee:hover .maptech-partners-track,
+.maptech-partners-marquee:focus-within .maptech-partners-track {
+  animation-play-state: paused;
+}
+.maptech-partners-marquee.is-manually-playing:hover .maptech-partners-track,
+.maptech-partners-marquee.is-manually-playing:focus-within .maptech-partners-track {
+  animation-play-state: running;
+}
+.maptech-partners-marquee.is-dragging .maptech-partners-track {
+  animation-play-state: paused;
+}
+.maptech-partners-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+.maptech-partners-track.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+.maptech-partners-track.is-dragging a {
+  pointer-events: none;
+}
+@keyframes maptech-partners-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.maptech-partner-card {
+  display: flex;
+  min-height: 255px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid #e5ebe6;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(30, 43, 59, .06);
+  color: #263342;
+  text-align: center;
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.maptech-partner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(30, 43, 59, .12);
+  color: #36521c;
+  text-decoration: none;
+}
+.maptech-partner-card img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: 100px;
+  object-fit: contain;
+}
+.maptech-partner-card span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.maptech-partners-note {
+  max-width: 780px;
+  margin: 18px auto 0;
+  color: #758078;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+.maptech-partners-cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+.maptech-partners-cta a {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid #36521c;
+  border-radius: 5px;
+  background: #36521c;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s ease, color .2s ease;
+}
+.maptech-partners-cta a + a {
+  background: transparent;
+  color: #36521c;
+}
+.maptech-partners-cta a:hover {
+  background: #4a6b28;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .maptech-carousel-section {
+    padding: 64px 0;
+  }
+  .maptech-carousel-heading {
+    margin-bottom: 28px;
+  }
+  .maptech-carousel-heading h1,
+  .maptech-carousel-heading h2 {
+    font-size: 28px;
+  }
+  .maptech-carousel-slide {
+    flex-basis: 100%;
+  }
+  .maptech-testimonial-list {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: minmax(240px, auto);
+    gap: 16px;
+  }
+  .maptech-testimonial-card {
+    padding: 20px;
+  }
+    .maptech-partners-group .maptech-carousel-slide {
+      flex-basis: 190px;
+  }
+  .maptech-partner-card {
+    min-height: 145px;
+    gap: 12px;
+    padding: 16px 12px;
+  }
+  .maptech-partner-card img {
+    height: 56px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .maptech-carousel-track {
+    scroll-behavior: auto;
+  }
+  .maptech-partners-marquee {
+    overflow-x: auto;
+  }
+  .maptech-partners-track {
+    animation-play-state: paused;
+    will-change: auto;
+  }
+  .maptech-carousel-track *,
+  .maptech-carousel-controls * {
+    transition-duration: .01ms !important;
+  }
+}

@@ -1,0 +1,333 @@
+.maptech-about-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, .8fr);
+  gap: 56px;
+  align-items: stretch;
+  margin: 20px 0 72px;
+}
+
+.maptech-about-story {
+  align-self: center;
+  max-width: 600px;
+}
+
+.maptech-about-eyebrow,
+.maptech-framework-eyebrow {
+  margin: 0 0 10px;
+  color: #1e5712;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.maptech-about-story h3 {
+  margin: 0 0 20px;
+  color: #232d39;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.maptech-about-story p:not(.maptech-about-eyebrow) {
+  margin: 0 0 14px;
+  color: #59645e;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.maptech-about-visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 300px;
+  padding: 32px;
+  background: linear-gradient(135deg, rgba(10, 44, 28, .3), rgba(10, 44, 28, .82)), url("../images/maptech-aboutinbetweener.jpg") center/cover;
+  color: #fff;
+}
+
+.maptech-about-visual span {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .4px;
+}
+
+.maptech-about-visual strong {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.maptech-about-principles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 56px;
+  margin-bottom: 52px;
+}
+
+.maptech-about-principle {
+  padding: 28px 0;
+  border-top: 2px solid #155b32;
+}
+
+.maptech-about-principle:nth-child(2) {
+  border-top-color: #142d65;
+}
+
+.maptech-about-principle h3 {
+  margin: 0 0 14px;
+  color: #232d39;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.maptech-about-principle p:last-child {
+  max-width: 520px;
+  margin: 0;
+  color: #59645e;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.maptech-about-commitment {
+  display: grid;
+  grid-template-columns: minmax(190px, .65fr) minmax(0, 1.35fr);
+  column-gap: 28px;
+  align-items: center;
+  margin-bottom: 84px;
+  padding: 30px 34px;
+  background: #f2f6f3;
+  border-left: 5px solid #155b32;
+}
+
+.maptech-about-commitment .maptech-about-eyebrow {
+  grid-row: span 2;
+  margin: 0;
+}
+
+.maptech-about-commitment h3 {
+  margin: 0 0 8px;
+  color: #232d39;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.maptech-about-commitment p:last-child {
+  margin: 0;
+  color: #59645e;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.maptech-framework {
+  margin: 0 auto;
+}
+
+.maptech-framework-heading {
+  max-width: 720px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.maptech-framework-heading h3 {
+  margin: 0 0 12px;
+  color: #232d39;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
+.maptech-framework-heading > p:last-child {
+  margin: 0;
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.maptech-framework-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.maptech-framework-step {
+  --framework-accent: #374d18;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 590px;
+  padding: 22px 20px 0;
+  overflow: hidden;
+  border: 1px solid #d8e0db;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(22, 35, 29, .07);
+}
+
+.maptech-framework-step-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.maptech-framework-step-marker {
+  color: var(--framework-accent);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.maptech-framework-step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-top: -8px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--framework-accent);
+  box-shadow: 0 3px 10px rgba(22, 35, 29, .2);
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.maptech-framework-step-activate {
+  --framework-accent: #39a922;
+}
+
+.maptech-framework-step-protect {
+  --framework-accent: #1e5712;
+}
+
+.maptech-framework-step .maptech-framework-label {
+  margin: 0 0 7px;
+  color: var(--framework-accent);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.maptech-framework-step .maptech-framework-label strong {
+  font-size: 48px;
+  line-height: .7;
+}
+
+.maptech-framework-step h4 {
+  margin: 0 0 12px;
+  color: #232d39;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.maptech-framework-step > p:nth-of-type(2) {
+  margin: 0;
+  color: #59645e;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.maptech-framework-capabilities {
+  display: grid;
+  gap: 7px;
+  margin: 18px 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.maptech-framework-capabilities li {
+  color: #35443c;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.maptech-framework-capabilities li::before {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 9px 1px 0;
+  border: 1px solid var(--framework-accent);
+  border-radius: 2px;
+  content: "";
+}
+
+.maptech-framework-outcome {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: auto -20px 0;
+  padding: 15px 20px 17px;
+  color: #fff;
+  background: var(--framework-accent);
+}
+
+.maptech-framework-outcome strong {
+  font-size: 11px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+}
+
+.maptech-framework-outcome span {
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+@media (max-width: 991px) {
+  .maptech-about-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 54px;
+  }
+
+  .maptech-about-story {
+    max-width: none;
+  }
+
+  .maptech-about-principles {
+    gap: 30px;
+  }
+
+  .maptech-about-commitment {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+  }
+
+  .maptech-about-commitment .maptech-about-eyebrow {
+    grid-row: auto;
+  }
+
+  .maptech-framework-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .maptech-framework-step {
+    min-height: 0;
+    min-height: 520px;
+  }
+}
+
+@media (max-width: 600px) {
+  .maptech-about-principles {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .maptech-about-story h3 {
+    font-size: 30px;
+  }
+
+  .maptech-about-visual {
+    min-height: 230px;
+  }
+
+  .maptech-about-commitment {
+    padding: 24px;
+  }
+}

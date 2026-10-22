@@ -1,0 +1,424 @@
+.security-solutions {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 104px 0;
+  color: #232d39;
+  background:
+    radial-gradient(ellipse at 10% 0%, rgba(57, 169, 34, 0.08), transparent 38%),
+    #f7f8f6;
+}
+
+#contact-us.security-solutions {
+  margin-bottom: 0;
+}
+
+.security-solutions__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: 56px;
+}
+
+.cybersecurity-intro {
+  padding: 32px;
+  border: 1px solid #e6ebe4;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 18px 50px rgba(35, 45, 57, 0.07);
+}
+
+.cybersecurity-intro__eyebrow,
+.security-solutions__heading > p:first-child,
+.cyber-panel__eyebrow {
+  color: #287a1b;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.cybersecurity-intro__eyebrow {
+  margin-bottom: 12px;
+}
+
+.cybersecurity-intro h1 {
+  margin: 0;
+  color: #232d39;
+  font-size: clamp(32px, 3.8vw, 46px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.cybersecurity-intro h1 em {
+  color: #1e5712;
+  font-style: normal;
+}
+
+.cybersecurity-intro__divider {
+  display: block;
+  width: 45px;
+  height: auto;
+  margin: 16px 0 20px;
+}
+
+.cybersecurity-intro__image {
+  display: block;
+  width: 100%;
+  max-height: 245px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cybersecurity-intro > p:not(.cybersecurity-intro__eyebrow) {
+  margin-bottom: 22px;
+  color: #596572;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.cybersecurity-intro .main-button a {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: #39a922;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+
+.cybersecurity-intro .main-button a:hover,
+.cybersecurity-intro .main-button a:focus-visible {
+  background: #287a1b;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.security-solutions__content {
+  min-width: 0;
+}
+
+.security-solutions__heading {
+  margin: 0 0 22px;
+}
+
+.security-solutions__heading > p:first-child {
+  margin-bottom: 8px;
+}
+
+.security-solutions__heading h2 {
+  margin: 0 0 8px;
+  color: #232d39;
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  line-height: 1.2;
+}
+
+.security-solutions__heading h2 span {
+  color: #1e5712;
+}
+
+.security-solutions__summary,
+.security-solutions__catalog-note {
+  color: #6a7580;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.security-solutions__summary {
+  margin: 0;
+}
+
+.cyber-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  height: 470px;
+}
+
+.cyber-panel {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  padding: 14px 18px;
+  border: 1px solid #e2e8df;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(35, 45, 57, 0.04);
+  cursor: pointer;
+  transition: flex 350ms ease, border-color 250ms ease, box-shadow 250ms ease;
+}
+
+.cyber-panel::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: #39a922;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cyber-panel__details {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  left: 20px;
+  z-index: 1;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(calc(-50% + 8px));
+  transition: opacity 220ms ease, transform 280ms ease;
+}
+
+.cyber-panel__heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.cyber-panel__heading > div {
+  min-width: 0;
+}
+
+.cyber-panel__icon {
+  display: block;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  padding: 7px;
+  border: 1px solid #e1ebde;
+  border-radius: 50%;
+  background: #f4f8f2;
+  object-fit: contain;
+}
+
+.cyber-panel__eyebrow {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.cyber-panel__details h3 {
+  margin: 0;
+  color: #232d39;
+  font-size: clamp(19px, 2vw, 24px);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.cyber-panel__details p {
+  margin: 0 0 8px;
+  color: #68737d;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cyber-panel__link {
+  color: #287a1b;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cyber-panel__link:hover,
+.cyber-panel__link:focus-visible {
+  color: #1e5712;
+}
+
+.cyber-panel__collapsed-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22px;
+  color: #495560;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.cyber-panel__collapsed-title .cyber-panel__icon {
+  width: 36px;
+  height: 36px;
+  flex-basis: 36px;
+  padding: 6px;
+}
+
+.cyber-panel:first-child {
+  flex: 2.4;
+  border-color: #a9d19f;
+}
+
+.cyber-panel:first-child::before {
+  opacity: 1;
+}
+
+.cyber-panel:first-child .cyber-panel__details {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.cyber-panel:first-child .cyber-panel__collapsed-title {
+  opacity: 0;
+}
+
+.cyber-panels:focus-within .cyber-panel {
+  flex: 1;
+}
+
+.cyber-panels:focus-within .cyber-panel__details {
+  opacity: 0;
+  transform: translateY(calc(-50% + 8px));
+}
+
+.cyber-panels:focus-within .cyber-panel__collapsed-title {
+  opacity: 1;
+}
+
+.cyber-panels .cyber-panel:focus-visible,
+.cyber-panels .cyber-panel:focus-within {
+  flex: 2.4;
+  border-color: #75b968;
+  box-shadow: 0 10px 24px rgba(35, 45, 57, 0.1);
+  outline: 2px solid rgba(57, 169, 34, 0.55);
+  outline-offset: 2px;
+}
+
+.cyber-panels .cyber-panel:focus-visible::before,
+.cyber-panels .cyber-panel:focus-within::before {
+  opacity: 1;
+}
+
+.cyber-panels .cyber-panel:focus-visible .cyber-panel__details,
+.cyber-panels .cyber-panel:focus-within .cyber-panel__details {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.cyber-panels .cyber-panel:focus-visible .cyber-panel__collapsed-title,
+.cyber-panels .cyber-panel:focus-within .cyber-panel__collapsed-title {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cyber-panels:hover .cyber-panel {
+    flex: 1;
+  }
+
+  .cyber-panels:hover .cyber-panel__details {
+    opacity: 0;
+    transform: translateY(calc(-50% + 8px));
+  }
+
+  .cyber-panels:hover .cyber-panel__collapsed-title {
+    opacity: 1;
+  }
+
+  .cyber-panels .cyber-panel:hover {
+    flex: 2.4;
+    border-color: #75b968;
+    box-shadow: 0 10px 24px rgba(35, 45, 57, 0.1);
+    outline: 2px solid rgba(57, 169, 34, 0.55);
+    outline-offset: 2px;
+  }
+
+  .cyber-panels .cyber-panel:hover::before {
+    opacity: 1;
+  }
+
+  .cyber-panels .cyber-panel:hover .cyber-panel__details {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
+  .cyber-panels .cyber-panel:hover .cyber-panel__collapsed-title {
+    opacity: 0;
+  }
+}
+
+.security-solutions__catalog-note {
+  margin: 12px 0 0;
+  font-size: 11px;
+}
+
+@media (max-width: 991px) {
+  .security-solutions {
+    padding: 76px 0;
+  }
+
+  .security-solutions__layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .cybersecurity-intro {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .security-solutions__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .security-solutions {
+    padding: 56px 0;
+  }
+
+  .cybersecurity-intro {
+    padding: 24px;
+  }
+
+  .cyber-panels {
+    height: auto;
+  }
+
+  .cyber-panel,
+  .cyber-panel:first-child,
+  .cyber-panels:focus-within .cyber-panel,
+  .cyber-panels .cyber-panel:focus-visible,
+  .cyber-panels .cyber-panel:focus-within {
+    flex: none;
+    min-height: 178px;
+  }
+
+  .cyber-panel__details,
+  .cyber-panel:first-child .cyber-panel__details,
+  .cyber-panels:focus-within .cyber-panel__details {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
+  .cyber-panel__collapsed-title,
+  .cyber-panel:first-child .cyber-panel__collapsed-title,
+  .cyber-panels:focus-within .cyber-panel__collapsed-title {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cyber-panel,
+  .cyber-panel__details,
+  .cyber-panel__collapsed-title,
+  .cybersecurity-intro .main-button a {
+    transition: none;
+  }
+}
