@@ -12,6 +12,133 @@
   float:left;
 }
 
+.maptech-product-sidebar {
+  margin-top: 30px;
+  padding: 24px;
+  border: 1px solid #e6e9e6;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(35, 45, 57, 0.08);
+}
+
+#our-classes {
+  margin-bottom: 32px;
+}
+
+.maptech-product-sidebar h3 {
+  margin: 0 0 10px;
+  color: #232d39;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.maptech-product-description {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e9e6;
+}
+
+.maptech-product-description p {
+  margin: 0;
+  color: #6f7774;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.maptech-product-category-navigation {
+  padding-top: 20px;
+}
+
+.maptech-product-category-links {
+  display: grid;
+  gap: 7px;
+}
+
+.maptech-product-category-links a {
+  display: block;
+  padding: 7px 9px;
+  border-radius: 4px;
+  color: #37413e;
+  font-size: 12px;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.maptech-product-category-links a:hover,
+.maptech-product-category-links a:focus-visible {
+  color: #287a1b;
+  background: #f0f7ee;
+  outline: none;
+}
+
+.maptech-product-category-loading {
+  color: #7a7a7a;
+  font-size: 12px;
+}
+
+.maptech-product-promotion {
+  position: relative;
+  display: block;
+  min-height: 130px;
+  margin-top: 22px;
+  overflow: hidden;
+  border-radius: 5px;
+  color: #fff;
+  background: #1e3b55;
+  text-decoration: none;
+}
+
+.maptech-product-promotion img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.55;
+}
+
+.maptech-product-promotion::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(24, 57, 83, 0.95), rgba(24, 57, 83, 0.35));
+  content: "";
+}
+
+.maptech-product-promotion-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 130px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 18px;
+}
+
+.maptech-product-promotion-content strong {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.maptech-product-promotion-content span {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.maptech-product-promotion:hover,
+.maptech-product-promotion:focus-visible {
+  color: #fff;
+  text-decoration: none;
+}
+
+.maptech-product-promotion:focus-visible {
+  outline: 2px solid #39a922;
+  outline-offset: 3px;
+}
+
 
 #call-to-action_sangfor {
   padding: 120px 0px;
@@ -1015,5 +1142,15 @@ body.products-search-active main section.portfolio:not([hidden]) [data-aos] {
   .products-search-field,
   .products-category-nav a {
     transition: none;
+  }
+}
+
+@media (max-width: 991px) {
+  #our-classes {
+    margin-bottom: 24px;
+  }
+
+  .maptech-product-sidebar {
+    margin-top: 24px;
   }
 }

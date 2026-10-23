@@ -444,7 +444,7 @@
         background: #4a6b28;
       }
       #contact-faq {
-        padding: 78px 0 90px;
+        padding: 40px 0 90px;
         background: #fff;
       }
       .maptech-faq-heading {
@@ -474,7 +474,7 @@
         grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr);
         gap: 32px;
         align-items: center;
-        margin: 58px auto 0;
+        margin: 24px auto 0;
       }
       .maptech-faq-location-details h3 {
         margin: 0 0 12px;
