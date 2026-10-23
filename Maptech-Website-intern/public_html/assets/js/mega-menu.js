@@ -82,6 +82,8 @@
     return node;
   };
 
+  const capitalizeLabel = (label) => label.trim().toUpperCase();
+
   const addColumn = (menu, title, className) => {
     const column = create("li", `maptech-mega-column ${className || ""}`);
     column.append(create("h2", "maptech-mega-heading", title));
@@ -258,7 +260,7 @@
       if (brand.href === activeBrandUrl) return;
       activeBrandUrl = brand.href;
       detailContent.replaceChildren();
-      detailContent.append(create("p", "maptech-mega-brand-name", brand.name));
+      detailContent.append(create("p", "maptech-mega-brand-name", capitalizeLabel(brand.name)));
       detailContent.append(create("p", "maptech-mega-loading", "Loading product details…"));
 
       if (brand.image) {
@@ -275,7 +277,7 @@
         loading?.remove();
         if (names.length > 0) {
           const list = create("ul", "maptech-mega-product-list");
-          names.forEach((name) => list.append(create("li", "", name)));
+          names.forEach((name) => list.append(create("li", "", capitalizeLabel(name))));
           detailContent.append(list);
         } else {
           detailContent.append(create(
@@ -319,7 +321,7 @@
       const destination = new URL(`products.html#${category.id}`, catalogUrl).href;
       category.brands.forEach((brand) => {
         const item = create("li", "maptech-mega-brand-item");
-        const link = create("a", "maptech-mega-link", brand.name);
+        const link = create("a", "maptech-mega-link", capitalizeLabel(brand.name));
         link.href = brand.href;
         link.addEventListener("mouseenter", () => {
           if (!isCompactMenu()) showBrand(brand);
@@ -331,7 +333,7 @@
         brandList.append(item);
       });
       allBrands.href = destination;
-      allBrands.textContent = `All ${category.label.toLowerCase()}`;
+      allBrands.textContent = `ALL ${capitalizeLabel(category.label)}`;
       const firstBrand = category.brands[0];
       if (firstBrand) showBrand(firstBrand);
       if (isCompactMenu()) {
@@ -342,7 +344,8 @@
 
     categories.forEach((category, index) => {
       const item = create("li", "maptech-mega-category-item");
-      const link = create("a", "maptech-mega-link", category.label);
+      const categoryClass = category.label.length > 28 ? " maptech-mega-link-long" : "";
+      const link = create("a", `maptech-mega-link${categoryClass}`, capitalizeLabel(category.label));
       link.href = new URL(`products.html#${category.id}`, catalogUrl).href;
       const categoryToggle = create("button", "maptech-mobile-submenu-toggle bi bi-chevron-right");
       categoryToggle.type = "button";
@@ -415,7 +418,7 @@
       categoryList.replaceChildren();
       solution.categories.forEach((id) => {
         const item = create("li");
-        const link = create("a", "maptech-mega-link", catalogLabels[id] || id);
+        const link = create("a", "maptech-mega-link", capitalizeLabel(catalogLabels[id] || id));
         link.href = new URL(`products.html#${id}`, catalogUrl).href;
         item.append(link);
         categoryList.append(item);
@@ -424,7 +427,7 @@
       featureImage.alt = "";
       featureDescription.textContent = solution.description;
       featureLink.href = new URL(solution.href, catalogUrl).href;
-      featureLink.textContent = `Explore ${solution.title}`;
+      featureLink.textContent = `EXPLORE ${capitalizeLabel(solution.title)}`;
       if (isCompactMenu()) {
         menu.classList.add("has-selected-solution");
         activeSolutionToggle?.classList.remove("active", "bi-chevron-down");
@@ -445,7 +448,7 @@
 
     solutions.forEach((solution, index) => {
       const item = create("li", "maptech-mega-category-item");
-      const link = create("a", "maptech-mega-link", solution.title);
+      const link = create("a", "maptech-mega-link", capitalizeLabel(solution.title));
       link.href = new URL(solution.href, catalogUrl).href;
       const solutionToggle = create("button", "maptech-mobile-submenu-toggle bi bi-chevron-right");
       solutionToggle.type = "button";

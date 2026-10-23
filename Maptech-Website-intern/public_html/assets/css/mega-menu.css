@@ -162,14 +162,7 @@
 @media (min-width: 992px) {
   .header-area .main-nav .nav li.submenu > ul.maptech-mega-menu .maptech-mega-category-item > a.maptech-mega-link::after,
   #navbar li.submenu > ul.maptech-mega-menu .maptech-mega-category-item > a.maptech-mega-link::after {
-    float: right;
-    margin-left: 12px;
-    color: currentColor;
-    content: "\f054";
-    font-family: "FontAwesome";
-    font-size: 10px;
-    line-height: inherit;
-    transition: transform 180ms ease;
+    display: none;
   }
 
   .header-area .main-nav .nav li.submenu > ul.maptech-mega-menu .maptech-mega-category-item:hover > a.maptech-mega-link::after,
@@ -503,6 +496,13 @@
   .header-area .main-nav .nav li.submenu > ul.maptech-products-menu .maptech-mega-category-item > a.maptech-mega-link,
   #navbar li.submenu > ul.maptech-products-menu .maptech-mega-category-item > a.maptech-mega-link {
     padding: 8px 52px 8px 16px !important;
+  }
+
+  .header-area .main-nav .nav li.submenu > ul.maptech-products-menu .maptech-mega-category-item > a.maptech-mega-link-long,
+  #navbar li.submenu > ul.maptech-products-menu .maptech-mega-category-item > a.maptech-mega-link-long {
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    line-height: 1.3;
   }
 
   .header-area .main-nav .nav li.submenu > ul.maptech-products-menu .maptech-mega-category-item > .maptech-mobile-submenu-toggle,
