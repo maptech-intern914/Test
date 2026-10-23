@@ -1153,4 +1153,8 @@ body.products-search-active main section.portfolio:not([hidden]) [data-aos] {
   .maptech-product-sidebar {
     margin-top: 24px;
   }
+
+  .maptech-product-category-navigation {
+    display: none;
+  }
 }
