@@ -66,6 +66,30 @@
 .header-area .main-nav .nav > li > a:not(.main-button) {
   height: 80px;
   line-height: 80px;
+  transition: color 320ms cubic-bezier(.22, .61, .36, 1),
+    background-color 320ms cubic-bezier(.22, .61, .36, 1);
+}
+
+@media (min-width: 992px) {
+  .header-area {
+    transition: background-color 320ms cubic-bezier(.22, .61, .36, 1);
+  }
+
+  .header-area:has(.maptech-mega-item:hover),
+  .header-area:has(.maptech-mega-item:focus-within) {
+    background: #fff;
+  }
+
+  .header-area:has(.maptech-mega-item:hover) .main-nav .nav > li:not(:last-child) > a,
+  .header-area:has(.maptech-mega-item:focus-within) .main-nav .nav > li:not(:last-child) > a {
+    color: #000 !important;
+  }
+
+  .header-area .main-nav .nav > li.maptech-mega-item:hover > a.maptech-mega-trigger,
+  .header-area .main-nav .nav > li.maptech-mega-item:focus-within > a.maptech-mega-trigger {
+    color: #ed563b !important;
+    background: transparent;
+  }
 }
 
 .header-area .main-nav .nav > li:last-child > a[href="#contact-us"] {
