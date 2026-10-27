@@ -385,6 +385,11 @@ body.dark-mode .cyber-panel {
   box-shadow: 0 16px 36px rgba(10, 13, 14, .28);
 }
 
+body.dark-mode .cyber-panel__icon {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
 body.dark-mode .cybersecurity-intro h1,
 body.dark-mode .security-solutions__heading h2,
 body.dark-mode .cyber-panel__details h3 {
