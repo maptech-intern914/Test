@@ -2,6 +2,71 @@
 	
 	"use strict";
 
+	function setTheme(isDark) {
+		document.body.classList.toggle('dark-mode', isDark);
+		var themeToggle = document.querySelector('.theme-toggle');
+		var header = document.querySelector('.header-area');
+		if (header) {
+			header.style.setProperty('background', isDark ? 'rgba(17, 19, 21, .86)' : '', 'important');
+			header.style.setProperty('background-color', isDark ? 'rgba(17, 19, 21, .86)' : '', 'important');
+			header.style.setProperty('transition', isDark ? 'none' : '', 'important');
+		}
+		if (!themeToggle) {
+			return;
+		}
+
+		themeToggle.classList.toggle('bi-sun', isDark);
+		themeToggle.classList.toggle('bi-moon-stars', !isDark);
+		themeToggle.style.setProperty('color', isDark ? '#f7d56b' : '#232d39', 'important');
+		var isMobile = window.matchMedia('(max-width: 991px)').matches;
+		themeToggle.style.setProperty('background-color', isMobile ? 'transparent' : (isDark ? '#42484b' : '#ffffff'), 'important');
+		themeToggle.style.setProperty('border-color', isMobile ? 'transparent' : (isDark ? '#687176' : '#d7ddd8'), 'important');
+		themeToggle.style.setProperty('box-shadow', isMobile ? 'none' : '', 'important');
+		var backToTop = document.getElementById('header') && document.querySelector('.back-to-top');
+		if (backToTop) {
+			backToTop.style.setProperty('right', isMobile ? '' : '24px', 'important');
+			backToTop.style.setProperty('bottom', isMobile ? '' : '84px', 'important');
+		}
+		document.querySelectorAll('#tabs ul li a').forEach(function (categoryLink) {
+			categoryLink.style.setProperty('background', isDark ? '#3a4043' : '', 'important');
+			categoryLink.style.setProperty('background-color', isDark ? '#3a4043' : '', 'important');
+			categoryLink.style.setProperty('color', isDark ? '#edf0f1' : '', 'important');
+		});
+		themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+		themeToggle.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+		themeToggle.setAttribute('aria-pressed', isDark);
+	}
+
+	function setupThemeToggle() {
+		var mainNav = document.querySelector('.header-area .main-nav');
+		if (!mainNav || document.querySelector('.theme-toggle')) {
+			return;
+		}
+
+		var themeToggle = document.createElement('button');
+		themeToggle.type = 'button';
+		themeToggle.className = 'theme-toggle bi bi-moon-stars';
+		themeToggle.setAttribute('aria-pressed', 'false');
+		mainNav.appendChild(themeToggle);
+
+		var savedTheme = window.localStorage.getItem('maptech-theme');
+		setTheme(savedTheme === 'dark');
+		themeToggle.addEventListener('click', function () {
+			var isDark = !document.body.classList.contains('dark-mode');
+			setTheme(isDark);
+			window.localStorage.setItem('maptech-theme', isDark ? 'dark' : 'light');
+		});
+	}
+
+	var themeStylesheet = document.createElement('link');
+	themeStylesheet.rel = 'stylesheet';
+	themeStylesheet.href = new URL('../css/dark-mode.css', document.currentScript.src).href;
+	document.head.appendChild(themeStylesheet);
+	setupThemeToggle();
+	if (!window.jQuery) {
+		return;
+	}
+
 	var usesStandardMobileNav = /\/(cybersecurity|data-infrastructure|it-peripherals|computing-devices)\.html$/i.test(window.location.pathname) || /\/products\/[^/]+\/index\.html$/i.test(window.location.pathname);
 	var standardNav = document.querySelector('.header-area .main-nav');
 	if (usesStandardMobileNav && standardNav) {
