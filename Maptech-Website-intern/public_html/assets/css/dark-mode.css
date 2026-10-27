@@ -299,6 +299,16 @@ body.dark-mode .maptech-mega-product-list li {
   border-color: #596267 !important;
 }
 
+body.dark-mode .maptech-framework-capabilities li {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+body.dark-mode .maptech-mega-product-list li {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
 body.dark-mode .maptech-contact-card input:not([type="radio"]):not([type="file"]),
 body.dark-mode .maptech-contact-card textarea,
 body.dark-mode .maptech-message-composer,
@@ -341,6 +351,16 @@ body.dark-mode .maptech-carousel-section,
 body.dark-mode .maptech-testimonials {
   color: #edf0f1 !important;
   background-color: #25292b !important;
+  border-color: #4d5559 !important;
+}
+
+body.dark-mode .maptech-mega-menu {
+  color: #edf0f1 !important;
+  background-color: #25292b !important;
+  border-color: #4d5559 !important;
+}
+
+body.dark-mode .maptech-mega-menu > li {
   border-color: #4d5559 !important;
 }
 
