@@ -303,10 +303,15 @@ body.dark-mode .maptech-contact-card input:not([type="radio"]):not([type="file"]
 body.dark-mode .maptech-contact-card textarea,
 body.dark-mode .maptech-message-composer,
 body.dark-mode .maptech-service-options,
-body.dark-mode .maptech-contact-card .maptech-attachment-drop,
-body.dark-mode .products-search-field input {
+body.dark-mode .maptech-contact-card .maptech-attachment-drop {
   color: #edf0f1 !important;
   background-color: #42484b !important;
+  border-color: #596267 !important;
+}
+
+body.dark-mode .products-search-field input {
+  color: #edf0f1 !important;
+  background-color: transparent !important;
   border-color: #596267 !important;
 }
 
@@ -368,6 +373,11 @@ body.dark-mode .products-category-nav a:hover {
   color: #edf0f1 !important;
   background-color: #4a5256 !important;
   border-color: #687176 !important;
+}
+
+body.dark-mode .portfolio .portfolio-item .portfolio-img img {
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))
+    drop-shadow(0 0 7px rgba(255, 255, 255, 0.3));
 }
 
 body.dark-mode .security-solutions {
@@ -588,7 +598,7 @@ body.dark-mode .header-area .main-nav .nav li.submenu > ul.maptech-mega-menu a.m
 body.dark-mode #navbar li.submenu > ul.maptech-mega-menu a.maptech-mega-link:hover,
 body.dark-mode .header-area .main-nav .nav li.submenu > ul.maptech-mega-menu .maptech-mega-category-item.is-active > a.maptech-mega-link {
   color: #fff !important;
-  background: #39b52b !important;
+  background: #397033 !important;
 }
 
 html body.dark-mode .header-area .main-nav .nav li.submenu > ul.maptech-mega-menu a.maptech-mega-link,
