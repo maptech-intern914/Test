@@ -279,6 +279,16 @@ body.dark-mode .maptech-product-promotion::after {
   background: linear-gradient(90deg, rgba(53, 58, 61, .96), rgba(53, 58, 61, .62));
 }
 
+body.dark-mode .maptech-framework-step-marker,
+body.dark-mode .maptech-framework-step .maptech-framework-label,
+body.dark-mode .maptech-framework-step .maptech-framework-label strong {
+  color: var(--framework-accent) !important;
+}
+
+body.dark-mode .maptech-framework-step .maptech-framework-outcome {
+  background-color: var(--framework-accent) !important;
+}
+
 body.dark-mode .maptech-framework-capabilities li,
 body.dark-mode .maptech-attachment-list li,
 body.dark-mode .maptech-link-list li,
@@ -651,6 +661,10 @@ body.dark-mode #tabs ul li a {
   color: #edf0f1 !important;
   background-color: #3a4043 !important;
   box-shadow: 0 0 15px rgba(0, 0, 0, .22);
+}
+
+body.dark-mode #our-classes #tabs ul li a img {
+  filter: brightness(0) invert(1);
 }
 
 body.dark-mode #tabs ul .ui-tabs-active a {
