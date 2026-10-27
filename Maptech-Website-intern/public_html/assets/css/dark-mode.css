@@ -20,6 +20,12 @@ html {
   transition: color .25s ease, background-color .25s ease, border-color .25s ease;
 }
 
+.theme-toggle:focus:not(:focus-visible),
+.menu-trigger.mobile-nav-toggle:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 @media (min-width: 992px) {
   .theme-toggle {
     position: fixed;
@@ -64,6 +70,62 @@ body.dark-mode html {
 body.dark-mode {
   color: #edf0f1;
   background: #25292b;
+}
+
+body,
+body main,
+body main > section,
+body main h1,
+body main h2,
+body main h3,
+body main h4,
+body main h5,
+body main h6,
+body main p,
+body main li,
+body main a,
+body footer,
+body footer p,
+body footer a,
+body .header-area,
+body .background-header,
+body .maptech-product-sidebar,
+body .maptech-contact-card,
+body .maptech-carousel-section,
+body .maptech-framework-step,
+body .maptech-card,
+body .product-card,
+body .dark-bg {
+  transition: color .3s ease, background-color .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body main,
+  body main > section,
+  body main h1,
+  body main h2,
+  body main h3,
+  body main h4,
+  body main h5,
+  body main h6,
+  body main p,
+  body main li,
+  body main a,
+  body footer,
+  body footer p,
+  body footer a,
+  body .header-area,
+  body .background-header,
+  body .maptech-product-sidebar,
+  body .maptech-contact-card,
+  body .maptech-carousel-section,
+  body .maptech-framework-step,
+  body .maptech-card,
+  body .product-card,
+  body .dark-bg {
+    transition-duration: 0s;
+  }
 }
 
 body.dark-mode .header-area,
@@ -128,7 +190,7 @@ body.dark-mode .maptech-about-principle h3 {
   color: #edf0f1 !important;
 }
 
-body.dark-mode section:not(.dark-bg),
+body.dark-mode section:not(.dark-bg):not(.maptech-product-description),
 body.dark-mode .maptech-framework-section,
 body.dark-mode .maptech-about-principle,
 body.dark-mode .contact-us,
@@ -436,6 +498,11 @@ body.dark-mode .cyber-panels .cyber-panel:focus-within {
     color: #82d76f !important;
     background: #42484b !important;
   }
+
+  body.dark-mode .header-area .main-nav .nav > li:not(:last-child) > a:hover,
+  body.dark-mode .header-area .main-nav .nav > li:not(:last-child) > a:focus-visible {
+    color: #f9735b !important;
+  }
 }
 
 html body.dark-mode .theme-toggle,
@@ -522,7 +589,13 @@ html body.dark-mode .header-area:has(.maptech-mega-item:focus-within) .main-nav 
 
 html body.dark-mode .header-area:has(.maptech-mega-item:hover) .main-nav .nav > li.maptech-mega-item:hover > a,
 html body.dark-mode .header-area:has(.maptech-mega-item:focus-within) .main-nav .nav > li.maptech-mega-item:focus-within > a {
-  color: #58d63f !important;
+  color: #f9735b !important;
+}
+
+@media (max-width: 991px) {
+  html body.dark-mode .header-area .main-nav .nav > li.scroll-to-section > a:is([href="#top"], [href="#about"], [href="#partners"]):is(:hover, :focus-visible, :active) {
+    color: #f9735b !important;
+  }
 }
 
 body.dark-mode #contact-faq {

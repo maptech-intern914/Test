@@ -9,7 +9,6 @@
 		if (header) {
 			header.style.setProperty('background', isDark ? 'rgba(17, 19, 21, .86)' : '', 'important');
 			header.style.setProperty('background-color', isDark ? 'rgba(17, 19, 21, .86)' : '', 'important');
-			header.style.setProperty('transition', isDark ? 'none' : '', 'important');
 		}
 		if (!themeToggle) {
 			return;

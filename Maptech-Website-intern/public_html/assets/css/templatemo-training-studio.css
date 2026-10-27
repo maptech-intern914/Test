@@ -673,6 +673,10 @@ header
     background: #eee !important;
     color: #287a1b!important;
   }
+  .header-area .main-nav .nav > li:not(:last-child) > a:hover,
+  .header-area .main-nav .nav > li:not(:last-child) > a:focus-visible {
+    color: #ed563b !important;
+  }
 
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
