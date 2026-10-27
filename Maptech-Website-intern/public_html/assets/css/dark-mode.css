@@ -298,6 +298,68 @@ body.dark-mode .products-category-nav a:hover {
   border-color: #687176 !important;
 }
 
+body.dark-mode .security-solutions {
+  color: #edf0f1;
+  background:
+    radial-gradient(ellipse at 10% 0%, rgba(86, 196, 67, .12), transparent 38%),
+    #25292b !important;
+}
+
+body.dark-mode .cybersecurity-intro,
+body.dark-mode .cyber-panel {
+  color: #edf0f1;
+  background-color: #353a3d !important;
+  border-color: #4d5559 !important;
+  box-shadow: 0 16px 36px rgba(10, 13, 14, .28);
+}
+
+body.dark-mode .cybersecurity-intro h1,
+body.dark-mode .security-solutions__heading h2,
+body.dark-mode .cyber-panel__details h3 {
+  color: #f3f5f4 !important;
+}
+
+body.dark-mode .cybersecurity-intro h1 em,
+body.dark-mode .security-solutions__heading h2 span,
+body.dark-mode .cybersecurity-intro__eyebrow,
+body.dark-mode .security-solutions__heading > p:first-child,
+body.dark-mode .cyber-panel__eyebrow {
+  color: #8fe27c !important;
+}
+
+body.dark-mode .cybersecurity-intro > p:not(.cybersecurity-intro__eyebrow),
+body.dark-mode .security-solutions__summary,
+body.dark-mode .security-solutions__catalog-note,
+body.dark-mode .cyber-panel__details p {
+  color: #c1c8cb !important;
+}
+
+body.dark-mode .cyber-panel__collapsed-title {
+  color: #e4e9e7 !important;
+}
+
+body.dark-mode .cyber-panel__icon {
+  background: #42484b;
+  border-color: #596267;
+}
+
+body.dark-mode .cyber-panel__link {
+  color: #9be88a !important;
+}
+
+body.dark-mode .cyber-panel__link:hover,
+body.dark-mode .cyber-panel__link:focus-visible {
+  color: #c1f3b5 !important;
+}
+
+body.dark-mode .cyber-panel:first-child,
+body.dark-mode .cyber-panels .cyber-panel:hover,
+body.dark-mode .cyber-panels .cyber-panel:focus-visible,
+body.dark-mode .cyber-panels .cyber-panel:focus-within {
+  border-color: #75b968 !important;
+  box-shadow: 0 12px 28px rgba(10, 13, 14, .36);
+}
+
 @media (max-width: 991px) {
   .theme-toggle {
     top: 18px;

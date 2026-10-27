@@ -32,6 +32,31 @@
   color: #66717d;
   line-height: 1.7;
 }
+.maptech-testimonials-cta {
+  margin: 28px 0 0;
+  text-align: center;
+}
+.maptech-testimonials-cta a {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: #39a922;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .2s ease, transform .2s ease;
+}
+.maptech-testimonials-cta a:hover,
+.maptech-testimonials-cta a:focus-visible {
+  background: #287a1b;
+  color: #fff;
+  transform: translateY(-1px);
+}
+.maptech-testimonials-cta a:focus-visible {
+  outline: 3px solid #54c948;
+  outline-offset: 3px;
+}
 .maptech-carousel {
   --maptech-carousel-gap: 22px;
 }
