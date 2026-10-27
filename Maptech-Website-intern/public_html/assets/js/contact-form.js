@@ -24,6 +24,17 @@
   var links = [];
   var maxUploadSize = 10 * 1024 * 1024;
   var allowedFileExtensions = /\.(pdf|docx|jpe?g|png|webp)$/i;
+  var characterLimits = {
+    name: 100,
+    position: 100,
+    company: 150,
+    email: 254,
+    message: 3000
+  };
+
+  Object.keys(characterLimits).forEach(function (fieldName) {
+    form.elements[fieldName].maxLength = characterLimits[fieldName];
+  });
 
   fileInput.accept = '.pdf,.docx,.jpg,.jpeg,.png,.webp';
 
@@ -154,6 +165,13 @@
   fileInput.addEventListener('change', function () {
     addFiles(fileInput.files);
   });
+
+  form.addEventListener('invalid', function (event) {
+    if (event.target.name === 'message' && event.target.validity.tooLong) {
+      status.textContent = 'Your message must be 3,000 characters or fewer.';
+      status.classList.add('is-error');
+    }
+  }, true);
 
   ['dragenter', 'dragover'].forEach(function (eventName) {
     dropArea.addEventListener(eventName, function (event) {
