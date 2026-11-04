@@ -378,6 +378,12 @@ body.dark-mode .maptech-testimonial-attribution strong {
   color: #edf0f1 !important;
 }
 
+body.dark-mode .maptech-product-category-links a:hover,
+body.dark-mode .maptech-product-category-links a:focus-visible {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
 body.dark-mode .maptech-carousel-dot {
   background: #687176;
 }
