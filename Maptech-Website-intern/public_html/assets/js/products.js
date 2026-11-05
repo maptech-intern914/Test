@@ -46,13 +46,14 @@
   // Product keywords per brand card. Key = the folder name in the card's link
 // (products/<folder>/index.html). Add or edit terms here only.
 const BRAND_KEYWORDS = {
-  // Cybersecurity
+  // Network, endpoint, and data security
   "cybersecurity-sangfor": "NGAF next generation firewall endpoint secure cyber command IAG HCI",
   "cybersecurity-fortinet": "FortiGate FortiAP FortiSwitch FortiAnalyzer FortiManager FortiClient FortiMail FortiWeb firewall",
   "cybersecurity-sophos": "Sophos Firewall XG Intercept X endpoint MDR Sophos Central antivirus",
   "cybersecurity-seqrite": "endpoint security EPS HawkkHunt XDR UTM mSuite MDM encryption DLP antivirus",
   "cybersecurity-escan": "eScan antivirus total security endpoint security MDM",
   "cybersecurity-eset": "NOD32 internet security endpoint security ESET Protect mail security antivirus",
+  "varonis": "data security governance classification insider risk data protection",
 
   // Wireless access points and switches
   "sundray-wap": "WLAN controller access point wifi switch NAC SD-WAN",
@@ -148,7 +149,7 @@ const brandKey = (item) =>
 
   const categories = Array.from(document.querySelectorAll("main section.portfolio"))
     .map((section) => {
-      const heading = section.querySelector("h2");
+      const heading = section.querySelector("h2[id^='product-category-']");
       const brandItems = Array.from(section.querySelectorAll(".portfolio-item"));
 
       if (!heading || brandItems.length === 0) {

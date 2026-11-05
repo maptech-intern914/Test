@@ -275,13 +275,60 @@ body.dark-mode .maptech-mega-detail-content {
   box-shadow: 0 12px 35px rgba(20, 24, 26, .24);
 }
 
+body.dark-mode .maptech-framework-step {
+  color: #edf0f1 !important;
+  background-color: #292f2c !important;
+  border-color: #454e49 !important;
+  box-shadow: none !important;
+}
+
+body.dark-mode .maptech-catalog-framework-link {
+  --framework-accent: #a7cf77;
+  color: #edf0f1 !important;
+  background-color: transparent !important;
+  border-bottom-color: #454e49 !important;
+  box-shadow: none !important;
+}
+
+body.dark-mode .maptech-catalog-framework-link.maptech-framework-step-activate {
+  --framework-accent: #73db57;
+}
+
+body.dark-mode .maptech-catalog-framework-link.maptech-framework-step-protect {
+  --framework-accent: #78c96f;
+}
+
+body.dark-mode .maptech-catalog-framework-link:hover,
+body.dark-mode .maptech-catalog-framework-link:focus-visible {
+  border-bottom-color: var(--framework-accent) !important;
+}
+
+body.dark-mode .maptech-catalog-framework-link .maptech-framework-label {
+  color: #edf0f1 !important;
+}
+
+body.dark-mode .maptech-catalog-framework-link h2 {
+  color: #b7c1bc !important;
+}
+
+body.dark-mode .maptech-framework-step h4 {
+  color: #edf0f1 !important;
+}
+
+body.dark-mode .maptech-framework-step > p:nth-of-type(2),
+body.dark-mode .maptech-framework-capabilities li {
+  color: #c1c8cb !important;
+}
+
 body.dark-mode .maptech-product-promotion::after {
   background: linear-gradient(90deg, rgba(53, 58, 61, .96), rgba(53, 58, 61, .62));
 }
 
 body.dark-mode .maptech-framework-step-marker,
 body.dark-mode .maptech-framework-step .maptech-framework-label,
-body.dark-mode .maptech-framework-step .maptech-framework-label strong {
+body.dark-mode .maptech-framework-step .maptech-framework-label strong,
+body.dark-mode .maptech-catalog-framework-link .maptech-framework-label strong,
+body.dark-mode .maptech-catalog-framework-action {
   color: var(--framework-accent) !important;
 }
 

@@ -2,7 +2,9 @@
   const scriptUrl = document.currentScript?.src;
   const catalogUrl = scriptUrl ? new URL("../../products.html", scriptUrl) : null;
   const catalogLabels = {
-    "product-category-cyber-security": "Cybersecurity",
+    "product-category-cyber-security": "Network security & firewalls",
+    "product-category-endpoint-security": "Endpoint & email security",
+    "product-category-data-security": "Data security & governance",
     "product-category-wireless-access-points": "Wireless access points & switches",
     "product-category-cctv": "CCTV",
     "product-category-computers-monitors": "Computers & monitors",
@@ -25,6 +27,8 @@
       image: "assets/images/img-01-cyber.jpg",
       categories: [
         "product-category-cyber-security",
+        "product-category-endpoint-security",
+        "product-category-data-security",
         "product-category-door-access",
         "product-category-biometrics",
         "product-category-cctv"
