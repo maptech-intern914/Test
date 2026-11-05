@@ -196,12 +196,16 @@
   font-weight: 800;
 }
 
+.maptech-framework-step-modernize {
+  --framework-accent: #538e47;
+}
+
 .maptech-framework-step-activate {
-  --framework-accent: #39a922;
+  --framework-accent: #287219;
 }
 
 .maptech-framework-step-protect {
-  --framework-accent: #1e5712;
+   --framework-accent: #1f5014;
 }
 
 .maptech-framework-step .maptech-framework-label {
