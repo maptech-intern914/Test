@@ -706,6 +706,14 @@
   background-size: cover;
   text-align: center;
 }
+#call-to-action_premium-line {
+  padding: 120px 0px;
+  background-image:url(../../products/premium-line-fiberoptic/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
 
 .products-catalog-section {
   padding: 96px 0 26px;
