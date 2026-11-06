@@ -715,6 +715,11 @@
   text-align: center;
 }
 
+#call-to-action_premium-line .premium-line-header-logo {
+  width: min(500px, 70vw);
+  height: auto;
+}
+
 .products-catalog-section {
   padding: 96px 0 26px;
   background: #f4f7fa;
