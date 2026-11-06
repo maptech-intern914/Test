@@ -732,6 +732,24 @@
   text-align: center;
 }
 
+#call-to-action_huawei-wap {
+  padding: 40px 0px;
+  background-image:url(../../products/huawei-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_mikrotik-wap {
+  padding: 10px 0px;
+  background-image:url(../../products/mikrotik-wap/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 #call-to-action_premium-line .premium-line-header-logo {
   width: min(500px, 70vw);
   height: auto;
