@@ -214,6 +214,21 @@
   --framework-accent: #1e5712;
 }
 
+.maptech-catalog-framework-link {
+  position: relative;
+  justify-content: center;
+}
+
+.maptech-catalog-framework-link .maptech-framework-step-marker {
+  position: absolute;
+  left: 0;
+}
+
+.maptech-catalog-framework-link .maptech-catalog-framework-copy {
+  flex: 0 1 auto;
+  text-align: center;
+}
+
 .maptech-catalog-framework-link:hover,
 .maptech-catalog-framework-link:focus-visible {
   color: #232d39;
