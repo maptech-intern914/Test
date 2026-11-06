@@ -3,6 +3,14 @@
   max-width: 100%;
 }
 
+.portfolio .portfolio-img img.maptech-asus-logo {
+  width: 216px;
+  height: 71px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .mycontainer {
   width:100%;
   overflow:auto;
@@ -713,6 +721,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+
+#call-to-action_asus-monitors {
+  padding: 120px 0px;
+  background-image:url(../../products/asus-monitors/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_premium-line .premium-line-header-logo {
+  width: min(500px, 70vw);
+  height: auto;
 }
 
 #call-to-action_premium-line .premium-line-header-logo {
