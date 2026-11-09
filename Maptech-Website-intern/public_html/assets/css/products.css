@@ -25,6 +25,13 @@
   object-fit: contain;
 }
 
+.portfolio .portfolio-img img.maptech-fiberhome-logo {
+  width: 250px;
+  height: 80px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .portfolio .portfolio-img img.maptech-kebos-logo {
   width: 216px;
   height: 80px;
