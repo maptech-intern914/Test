@@ -783,6 +783,15 @@
   text-align: center;
 }
 
+#call-to-action_kebos-ups {
+  padding: 20px 0px;
+  background-image:url(../../products/protect/power-protection/kebos-ups/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 
 #call-to-action_premium-line .premium-line-header-logo {
   width: min(500px, 70vw);
