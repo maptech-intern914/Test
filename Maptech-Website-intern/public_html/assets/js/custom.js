@@ -57,6 +57,13 @@
 		});
 	}
 
+	if (!document.querySelector('link[href*="bootstrap-icons.css"]')) {
+		var iconStylesheet = document.createElement('link');
+		iconStylesheet.rel = 'stylesheet';
+		iconStylesheet.href = new URL('../../assets2/vendor/bootstrap-icons/bootstrap-icons.css', document.currentScript.src).href;
+		document.head.append(iconStylesheet);
+	}
+
 	var themeStylesheet = document.createElement('link');
 	themeStylesheet.rel = 'stylesheet';
 	themeStylesheet.href = new URL('../css/dark-mode.css', document.currentScript.src).href;
@@ -72,13 +79,6 @@
 		standardNav.classList.add('maptech-standard-mobile-nav');
 		var legacyMenuTrigger = standardNav.querySelector('.menu-trigger');
 		if (legacyMenuTrigger && legacyMenuTrigger.tagName !== 'BUTTON') {
-			if (!document.querySelector('link[href*="bootstrap-icons.css"]')) {
-				var iconStylesheet = document.createElement('link');
-				iconStylesheet.rel = 'stylesheet';
-				iconStylesheet.href = new URL('../../assets2/vendor/bootstrap-icons/bootstrap-icons.css', document.currentScript.src).href;
-				document.head.append(iconStylesheet);
-			}
-
 			var mobileMenuButton = document.createElement('button');
 			mobileMenuButton.type = 'button';
 			mobileMenuButton.className = 'bi bi-list mobile-nav-toggle menu-trigger';
