@@ -25,6 +25,14 @@
   object-fit: contain;
 }
 
+.portfolio .portfolio-img img.maptech-kebos-logo {
+  width: 216px;
+  height: 80px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .mycontainer {
   width:100%;
   overflow:auto;
