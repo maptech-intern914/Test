@@ -11,6 +11,20 @@
   object-position: center;
 }
 
+.portfolio .portfolio-img img.maptech-firewall-logo {
+  width: 263px;
+  height: 65px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.portfolio .portfolio-img img.maptech-compact-logo {
+  width: 216px;
+  height: 65px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .mycontainer {
   width:100%;
   overflow:auto;
