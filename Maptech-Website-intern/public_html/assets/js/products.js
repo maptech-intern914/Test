@@ -95,6 +95,8 @@ const BRAND_KEYWORDS = {
   "yeastar-telephony": "IP PBX P-Series S-Series cloud PBX VoIP gateway IP phone",
   "nec-telephony": "PBX telephone system SV9100 IP phone",
   "grandstream-telephony": "IP phone UCM IP PBX ATA VoIP gateway GXP",
+  "fanvil-telephony": "IP phone VoIP SIP business telephone intercom",
+  "mitel-telephony": "business communications IP phone VoIP telephony collaboration",
 
   // Door access and biometrics
   "zkteco-dooraccess": "door access access control turnstile controller card reader",
