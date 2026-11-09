@@ -742,8 +742,8 @@
 }
 
 #call-to-action_ruckus-network-wap {
-  padding: 40px 0px;
-  background-color: #808489;
+  padding: 10px 0px;
+  background-image:url(../../products/ruckus-network-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -758,6 +758,17 @@
   background-size: cover;
   text-align: center;
 }
+
+
+#call-to-action_juniper-wap {
+  padding: 40px 0px;
+  background-image:url(../../products/juniper-wap/img-header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 
 #call-to-action_premium-line .premium-line-header-logo {
   width: min(500px, 70vw);
