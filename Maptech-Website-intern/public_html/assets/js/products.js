@@ -53,7 +53,13 @@ const BRAND_KEYWORDS = {
   "cybersecurity-seqrite": "endpoint security EPS HawkkHunt XDR UTM mSuite MDM encryption DLP antivirus",
   "cybersecurity-escan": "eScan antivirus total security endpoint security MDM",
   "cybersecurity-eset": "NOD32 internet security endpoint security ESET Protect mail security antivirus",
+  "cybersecurity-viettel-security": "Viettel cybersecurity endpoint security antivirus protection",
+  "crowdstrike": "CrowdStrike Falcon endpoint protection antivirus EDR XDR cybersecurity",
+  "secure-computing": "Secure Computing firewall network security cybersecurity",
   "varonis": "data security governance classification insider risk data protection",
+  "kebos-ups": "Kebos UPS battery backup power protection",
+  "charge-ups": "Charge UPS battery backup power protection",
+  "ablerex-ups": "Ablerex UPS battery backup power protection",
 
   // Wireless access points and switches
   "sundray-wap": "WLAN controller access point wifi switch NAC SD-WAN",
@@ -136,7 +142,7 @@ const BRAND_KEYWORDS = {
 
 // "products/protect/network-security-firewalls/cybersecurity-sangfor/index.html" -> "cybersecurity-sangfor"
 const brandKey = (item) =>
-  item.querySelector("a")?.getAttribute("href")?.split("/").filter(Boolean).at(-3) ?? "";
+  item.querySelector("a")?.getAttribute("href")?.split("/").filter(Boolean).at(-2) ?? "";
 
   // Lowercase, strip accents and punctuation: "Video-Conferencing" -> "video conferencing"
   const normalize = (value) =>
