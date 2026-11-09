@@ -132,9 +132,9 @@ const BRAND_KEYWORDS = {
   "logitech-videoconferencing": "Rally MeetUp Rally Bar Tap Brio conference camera huddle room space ideation immersive",
 };
 
-// "products/protect/cybersecurity-sangfor/index.html" -> "cybersecurity-sangfor"
+// "products/protect/network-security-firewalls/cybersecurity-sangfor/index.html" -> "cybersecurity-sangfor"
 const brandKey = (item) =>
-  item.querySelector("a")?.getAttribute("href")?.split("/").filter(Boolean).at(-2) ?? "";
+  item.querySelector("a")?.getAttribute("href")?.split("/").filter(Boolean).at(-3) ?? "";
 
   // Lowercase, strip accents and punctuation: "Video-Conferencing" -> "video conferencing"
   const normalize = (value) =>

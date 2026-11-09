@@ -150,7 +150,7 @@
 
 #call-to-action_sangfor {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-sangfor/img-header.jpg);
+  background-image:url(../../products/protect/network-security-firewalls/cybersecurity-sangfor/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +159,7 @@
 
 #call-to-action_fortinet {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-fortinet/img-header.jpg);
+  background-image:url(../../products/protect/network-security-firewalls/cybersecurity-fortinet/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,7 +168,7 @@
 
 #call-to-action_sophos {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-sophos/img-header.jpg);
+  background-image:url(../../products/protect/endpoint-email-security/cybersecurity-sophos/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,7 +177,7 @@
 
 #call-to-action_seqrite {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-seqrite/img-header.jpg);
+  background-image:url(../../products/protect/endpoint-email-security/cybersecurity-seqrite/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,7 @@
 
 #call-to-action_escan {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-escan/img-header.jpg);
+  background-image:url(../../products/protect/endpoint-email-security/cybersecurity-escan/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +204,7 @@
 
 #call-to-action_eset {
   padding: 120px 0px;
-  background-image:url(../../products/protect/cybersecurity-eset/img-header.jpg);
+  background-image:url(../../products/protect/endpoint-email-security/cybersecurity-eset/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +213,7 @@
 
 #call-to-action_varonis {
   padding: 120px 0px;
-  background-image:url(../../products/protect/varonis/img-header.jpg);
+  background-image:url(../../products/protect/data-security-governance/varonis/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,7 +222,7 @@
 
 #call-to-action_sundray {
   padding: 120px 0px;
-  background-image:url(../../products/activate/sundray-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/sundray-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@
 
 #call-to-action_logitech {
   padding: 120px 0px;
-  background-image:url(../../products/activate/logitech-videoconferencing/img-header.jpg);
+  background-image:url(../../products/activate/video-conferencing/logitech-videoconferencing/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@
 
 #call-to-action_a4tech {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/a4tech-peripherals/img-header.jpg);
+  background-image:url(../../products/modernize/it-peripherals/a4tech-peripherals/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,7 +249,7 @@
 
 #call-to-action_acer-peripherals {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/acer-peripherals/img-header.jpg);
+  background-image:url(../../products/modernize/it-peripherals/acer-peripherals/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +258,7 @@
 
 #call-to-action_logitech-peripherals {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/logitech-peripherals/img-header.jpg);
+  background-image:url(../../products/modernize/it-peripherals/logitech-peripherals/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,7 +267,7 @@
 
 #call-to-action_epson-consumables {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/epson-consumables/img-header.jpg);
+  background-image:url(../../products/modernize/printing-devices-consumables/epson-consumables/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -276,7 +276,7 @@
 
 #call-to-action_brother-consumables {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/brother-consumables/img-header.jpg);
+  background-image:url(../../products/modernize/printing-devices-consumables/brother-consumables/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,7 +285,7 @@
 
 #call-to-action_canon-consumables {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/canon-consumables/img-header.jpg);
+  background-image:url(../../products/modernize/printing-devices-consumables/canon-consumables/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -294,7 +294,7 @@
 
 #call-to-action_peplink {
   padding: 120px 0px;
-  background-image:url(../../products/activate/peplink/img-header.jpg);
+  background-image:url(../../products/activate/sd-wan/peplink/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,7 +303,7 @@
 
 #call-to-action_fatpipe {
   padding: 120px 0px;
-  background-image:url(../../products/activate/fatpipe/img-header.jpg);
+  background-image:url(../../products/activate/sd-wan/fatpipe/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,7 +312,7 @@
 
 #call-to-action_lg-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/lg-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/lg-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,7 +321,7 @@
 
 #call-to-action_samsung-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/samsung-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/samsung-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -330,7 +330,7 @@
 
 #call-to-action_aoc-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/aoc-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/aoc-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,7 +339,7 @@
 
 #call-to-action_viewsonic-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/viewsonic-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/viewsonic-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -348,7 +348,7 @@
 
 #call-to-action_lenovo-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/lenovo-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/lenovo-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,7 +357,7 @@
 
 #call-to-action_benq-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/benq-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/benq-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -366,7 +366,7 @@
 
 #call-to-action_hp-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/hp-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/hp-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,7 +375,7 @@
 
 #call-to-action_dell-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/dell-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/dell-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,7 +384,7 @@
 
 #call-to-action_h3c-storage {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/h3c-storage/img-header.jpg);
+  background-image:url(../../products/modernize/storage-servers/h3c-storage/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,7 +393,7 @@
 
 #call-to-action_qnap-storage {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/qnap-storage/img-header.jpg);
+  background-image:url(../../products/modernize/storage-servers/qnap-storage/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -402,7 +402,7 @@
 
 #call-to-action_synology-storage {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/synology-storage/img-header.jpg);
+  background-image:url(../../products/modernize/storage-servers/synology-storage/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,7 +411,7 @@
 
 #call-to-action_dellemc-storage {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/dellemc-storage/img-header.jpg);
+  background-image:url(../../products/modernize/storage-servers/dellemc-storage/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -420,7 +420,7 @@
 
 #call-to-action_vertiv-ups {
   padding: 120px 0px;
-  background-image:url(../../products/protect/vertiv-ups/img-header.jpg);
+  background-image:url(../../products/protect/power-protection/vertiv-ups/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -429,7 +429,7 @@
 
 #call-to-action_apc-ups {
   padding: 120px 0px;
-  background-image:url(../../products/protect/apc-ups/img-header.jpg);
+  background-image:url(../../products/protect/power-protection/apc-ups/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,7 +438,7 @@
 
 #call-to-action_eaton-ups {
   padding: 120px 0px;
-  background-image:url(../../products/protect/eaton-ups/img-header.jpg);
+  background-image:url(../../products/protect/power-protection/eaton-ups/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -447,7 +447,7 @@
 
 #call-to-action_awp-ups {
   padding: 120px 0px;
-  background-image:url(../../products/protect/awp-ups/img-header.jpg);
+  background-image:url(../../products/protect/power-protection/awp-ups/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -456,7 +456,7 @@
 
 #call-to-action_kstarups-ups {
   padding: 120px 0px;
-  background-image:url(../../products/protect/kstarups-ups/img-header.jpg);
+  background-image:url(../../products/protect/power-protection/kstarups-ups/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -465,7 +465,7 @@
 
 #call-to-action_hikvision-biometrics {
   padding: 120px 0px;
-  background-image:url(../../products/protect/hikvision-biometrics/img-header.jpg);
+  background-image:url(../../products/protect/biometrics/hikvision-biometrics/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -474,7 +474,7 @@
 
 #call-to-action_dahua-biometrics {
   padding: 120px 0px;
-  background-image:url(../../products/protect/dahua-biometrics/img-header.jpg);
+  background-image:url(../../products/protect/biometrics/dahua-biometrics/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,7 +483,7 @@
 
 #call-to-action_zkteco-biometrics {
   padding: 120px 0px;
-  background-image:url(../../products/protect/zkteco-biometrics/img-header.jpg);
+  background-image:url(../../products/protect/biometrics/zkteco-biometrics/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,7 +492,7 @@
 
 #call-to-action_zkteco-dooraccess {
   padding: 120px 0px;
-  background-image:url(../../products/protect/zkteco-dooraccess/img-header.jpg);
+  background-image:url(../../products/protect/door-access/zkteco-dooraccess/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -501,7 +501,7 @@
 
 #call-to-action_dahua-dooraccess {
   padding: 120px 0px;
-  background-image:url(../../products/protect/dahua-dooraccess/img-header.jpg);
+  background-image:url(../../products/protect/door-access/dahua-dooraccess/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -510,7 +510,7 @@
 
 #call-to-action_hikvision-dooraccess {
   padding: 120px 0px;
-  background-image:url(../../products/protect/hikvision-dooraccess/img-header.jpg);
+  background-image:url(../../products/protect/door-access/hikvision-dooraccess/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -519,7 +519,7 @@
 
 #call-to-action_grandstream-telephony {
   padding: 120px 0px;
-  background-image:url(../../products/activate/grandstream-telephony/img-header.jpg);
+  background-image:url(../../products/activate/telephony/grandstream-telephony/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -528,7 +528,7 @@
 
 #call-to-action_nec-telephony {
   padding: 120px 0px;
-  background-image:url(../../products/activate/nec-telephony/img-header.jpg);
+  background-image:url(../../products/activate/telephony/nec-telephony/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -537,7 +537,7 @@
 
 #call-to-action_yeastar-telephony {
   padding: 120px 0px;
-  background-image:url(../../products/activate/yeastar-telephony/img-header.jpg);
+  background-image:url(../../products/activate/telephony/yeastar-telephony/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -546,7 +546,7 @@
 
 #call-to-action_litech-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/litech-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/litech-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -555,7 +555,7 @@
 
 #call-to-action_panduit-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/panduit-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/panduit-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -564,7 +564,7 @@
 
 #call-to-action_commscope-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/commscope-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/commscope-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -573,7 +573,7 @@
 
 #call-to-action_belden-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/belden-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/belden-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -582,7 +582,7 @@
 
 #call-to-action_leviton-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/leviton-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/leviton-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -591,7 +591,7 @@
 
 #call-to-action_fiberrex-fiberoptic {
   padding: 120px 0px;
-  background-image:url(../../products/activate/fiberrex-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/fiberrex-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -600,7 +600,7 @@
 
 #call-to-action_dahua-cctv {
   padding: 120px 0px;
-  background-image:url(../../products/protect/dahua-cctv/img-header.jpg);
+  background-image:url(../../products/protect/cctv/dahua-cctv/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -609,7 +609,7 @@
 
 #call-to-action_hikvision-cctv {
   padding: 120px 0px;
-  background-image:url(../../products/protect/hikvision-cctv/img-header.jpg);
+  background-image:url(../../products/protect/cctv/hikvision-cctv/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -618,7 +618,7 @@
 
 #call-to-action_maipu-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/maipu-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/maipu-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -627,7 +627,7 @@
 
 #call-to-action_h3c-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/h3c-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/h3c-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -636,7 +636,7 @@
 
 #call-to-action_hpearuba-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/hpearuba-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/hpearuba-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -645,7 +645,7 @@
 
 #call-to-action_dlink-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/dlink-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/dlink-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -654,7 +654,7 @@
 
 #call-to-action_extreme-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/extreme-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/extreme-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -663,7 +663,7 @@
 
 #call-to-action_ruijie-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/ruijie-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/ruijie-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -672,7 +672,7 @@
 
 #call-to-action_bdcom-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/bdcom-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/bdcom-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -681,7 +681,7 @@
 
 #call-to-action_tplink-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/tplink-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/tplink-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -690,7 +690,7 @@
 
 #call-to-action_ubiquiti-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/ubiquiti-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/ubiquiti-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -699,7 +699,7 @@
 
 #call-to-action_cisco-wap {
   padding: 120px 0px;
-  background-image:url(../../products/activate/cisco-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/cisco-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -708,7 +708,7 @@
 
 #call-to-action_alliedtelesis {
   padding: 120px 0px;
-  background-image:url(../../products/activate/alliedtelesis-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/alliedtelesis-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -716,7 +716,7 @@
 }
 #call-to-action_premium-line {
   padding: 120px 0px;
-  background-image:url(../../products/activate/premium-line-fiberoptic/img-header.jpg);
+  background-image:url(../../products/activate/fiber-optic-cabling/premium-line-fiberoptic/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -725,7 +725,7 @@
 
 #call-to-action_asus-monitors {
   padding: 120px 0px;
-  background-image:url(../../products/modernize/asus-monitors/img-header.jpg);
+  background-image:url(../../products/modernize/computers-monitors/asus-monitors/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -734,7 +734,7 @@
 
 #call-to-action_huawei-wap {
   padding: 40px 0px;
-  background-image:url(../../products/activate/huawei-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/huawei-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -743,7 +743,7 @@
 
 #call-to-action_ruckus-network-wap {
   padding: 10px 0px;
-  background-image:url(../../products/activate/ruckus-network-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/ruckus-network-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -752,7 +752,7 @@
 
 #call-to-action_mikrotik-wap {
   padding: 10px 0px;
-  background-image:url(../../products/activate/mikrotik-wap/img-header.jpg);
+  background-image:url(../../products/activate/networking/mikrotik-wap/img-header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -762,7 +762,7 @@
 
 #call-to-action_juniper-wap {
   padding: 40px 0px;
-  background-image:url(../../products/activate/juniper-wap/img-header.png);
+  background-image:url(../../products/activate/networking/juniper-wap/img-header.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
