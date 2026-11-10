@@ -73,7 +73,7 @@
 		return;
 	}
 
-	var usesStandardMobileNav = /\/(cybersecurity|data-infrastructure|it-peripherals|computing-devices)\.html$/i.test(window.location.pathname) || /\/products\/[^/]+\/index\.html$/i.test(window.location.pathname);
+	var usesStandardMobileNav = /\/(cybersecurity|data-infrastructure|it-peripherals|computing-devices)\.html$/i.test(window.location.pathname) || /\/products\/.+\/index\.html$/i.test(window.location.pathname);
 	var standardNav = document.querySelector('.header-area .main-nav');
 	if (usesStandardMobileNav && standardNav) {
 		standardNav.classList.add('maptech-standard-mobile-nav');
