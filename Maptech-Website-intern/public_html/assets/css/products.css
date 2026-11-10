@@ -882,6 +882,15 @@
   text-align: center;
 }
 
+#call-to-action_paloalto {
+  padding: 120px 10px;
+  background-image:url(../../products/protect/network-security-firewalls/cybersecurity-paloalto/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 
 #call-to-action_premium-line .premium-line-header-logo {
   width: min(500px, 70vw);
