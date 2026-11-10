@@ -23,7 +23,7 @@ This document describes the contact form and testimonial integrations used by th
 - The form includes hidden fields for the email subject, table template, CAPTCHA, reply-to address, return URL, and file links. On submit, the handler sets the subject using the service and company, and uses the visitor's email as the reply-to address.
 - FormSubmit handles ordinary submissions directly. For attachments selected through the custom drop area, the handler sends a `FormData` payload to FormSubmit's AJAX endpoint. It checks allowed file extensions, prevents duplicate selections, and enforces the 10 MB combined limit.
 - Added sharing links are validated as HTTP/HTTPS URLs and included in the `file_links` form field. Links are not uploaded as attachments.
-- After a successful standard submission, FormSubmit returns the visitor to the page's Contact Us section. The handler recognizes the `contact=success` query parameter and displays the success dialog. AJAX submissions display the result without a page redirect.
+- After a successful standard submission, FormSubmit returns the visitor to the same page URL where the form was submitted, preserving its query string and fragment. The handler temporarily adds and then removes the `contact=success` query parameter to display the success dialog. AJAX submissions display the result without a page redirect.
 - The `_captcha` field is enabled. FormSubmit may require the destination email to be verified/activated by its owner before delivery works; check the relevant inbox and FormSubmit's current setup instructions if a destination is newly configured.
 
 ### Changing Form Routing
