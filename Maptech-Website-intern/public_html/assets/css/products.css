@@ -806,6 +806,9 @@
   text-align: center;
 }
 
+.header-area.mikrotik-page-header:not(.background-header) .main-nav .nav > li:not(:last-child) > a {
+  color: #232d39;
+}
 
 #call-to-action_juniper-wap {
   padding: 40px 0px;
