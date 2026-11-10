@@ -573,6 +573,24 @@
   text-align: center;
 }
 
+#call-to-action_fanvil-telephony {
+  padding: 120px 0px;
+  background-image:url(../../products/activate/telephony/fanvil-telephony/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#call-to-action_mitel-telephony {
+  padding: 20px 0px;
+  background-image:url(../../products/activate/telephony/mitel-telephony/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 #call-to-action_litech-fiberoptic {
   padding: 120px 0px;
   background-image:url(../../products/activate/fiber-optic-cabling/litech-fiberoptic/img-header.jpg);
