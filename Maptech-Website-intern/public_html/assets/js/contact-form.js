@@ -146,7 +146,7 @@
   }
 
   function setReturnUrl() {
-    var returnUrl = new URL(window.location.href);
+    var returnUrl = new URL('/', window.location.origin);
     returnUrl.searchParams.set('contact', 'success');
     returnUrl.hash = 'contact-us';
     nextInput.value = returnUrl.href;
