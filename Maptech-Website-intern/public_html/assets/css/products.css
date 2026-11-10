@@ -834,6 +834,15 @@
   text-align: center;
 }
 
+#call-to-action_viettel-security {
+  padding: 20px 10px;
+  background-image:url(../../products/protect/endpoint-email-security/cybersecurity-viettel-security/img-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
 
 #call-to-action_premium-line .premium-line-header-logo {
   width: min(500px, 70vw);
