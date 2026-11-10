@@ -678,6 +678,10 @@ body.dark-mode .cyber-panels .cyber-panel:focus-within {
     color: #fff !important;
   }
 
+  body.dark-mode #header.header-area #navbar .mobile-nav-toggle {
+    color: #fff !important;
+  }
+
   body.dark-mode .header-area .main-nav .maptech-mobile-submenu-toggle,
   body.dark-mode .header-area .main-nav .maptech-mobile-submenu-toggle:hover,
   body.dark-mode .header-area .main-nav .maptech-mobile-submenu-toggle:focus,
