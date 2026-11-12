@@ -54,8 +54,12 @@ const BRAND_KEYWORDS = {
   "cybersecurity-escan": "eScan antivirus total security endpoint security MDM",
   "cybersecurity-eset": "NOD32 internet security endpoint security ESET Protect mail security antivirus",
   "cybersecurity-viettel-security": "Viettel cybersecurity endpoint security antivirus protection",
-  "crowdstrike": "CrowdStrike Falcon endpoint protection antivirus EDR XDR cybersecurity",
+  "cybersecurity-crowdstrike": "CrowdStrike Falcon endpoint protection antivirus EDR XDR cybersecurity",
   "secure-computing": "Secure Computing firewall network security cybersecurity",
+  "cybersecurity-secure-computing": "Secure Computing firewall network security cybersecurity cloud infrastructure",
+  "cybersecurity-sonicwall": "SonicWall firewall network security TZ NSa NSsp secure access threat protection",
+  "cybersecurity-paloalto": "Palo Alto Networks firewall Prisma hybrid workforce cloud network application data security",
+  "cybersecurity-trendmicro": "Trend Micro cybersecurity endpoint email cloud network antivirus Vision One Apex",
   "varonis": "data security governance classification insider risk data protection",
   "kebos-ups": "Kebos UPS battery backup power protection",
   "charge-ups": "Charge UPS battery backup power protection",
@@ -73,6 +77,10 @@ const BRAND_KEYWORDS = {
   "dlink-wap": "DAP DGS DWR Nuclias router switch access point wifi",
   "hpearuba-wap": "Instant On Aruba Central CX switch ClearPass access point",
   "h3c-wap": "switch WLAN router access point",
+  "huawei-wap": "Huawei wireless access point AP Wi-Fi WLAN enterprise campus network",
+  "mikrotik-wap": "MikroTik router switch wireless Wi-Fi access point ISP network",
+  "ruckus-network-wap": "Ruckus Wi-Fi wireless access point ethernet switch cloud management AI network",
+  "juniper-wap": "Juniper Mist EX4000 AP27 Wi-Fi 7 access point ethernet switch cloud-managed network",
   "maipu-wap": "switch router WLAN",
 
   // CCTV
@@ -81,6 +89,7 @@ const BRAND_KEYWORDS = {
 
   // Computers and monitors
   "benq-monitors": "monitor display",
+  "asus-monitors": "ASUS monitor display business computer screen",
   "hp-monitors": "monitor display laptop desktop ProBook EliteBook Pavilion Envy Omen",
   "lenovo-monitors": "monitor display laptop desktop ThinkPad ThinkCentre IdeaPad Legion ThinkVision",
   "dell-monitors": "monitor display laptop desktop Latitude Inspiron OptiPlex Vostro XPS Alienware UltraSharp",
@@ -91,6 +100,8 @@ const BRAND_KEYWORDS = {
 
   // Fiber optic and structured cabling
   "fiberrex-fiberoptic": "fiber optic cable patch cord pigtail splice ODF FTTH",
+  "fiberhome-fiberoptic": "FiberHome fiber optic optical cable FTTH broadband network",
+  "premium-line-fiberoptic": "Premium Line structured cabling Cat6 U UTP SlimLine cable network",
   "leviton-fiberoptic": "structured cabling patch panel cat6 keystone faceplate",
   "belden-fiberoptic": "cable cat6 copper fiber cabling",
   "commscope-fiberoptic": "SYSTIMAX structured cabling fiber connectivity",
@@ -117,6 +128,7 @@ const BRAND_KEYWORDS = {
   "kstarups-ups": "UPS battery backup power",
   "apc-ups": "UPS Smart-UPS Back-UPS Easy UPS battery backup surge",
   "vertiv-ups": "UPS Liebert GXT battery backup power",
+  "eaton-ups": "Eaton UPS uninterruptible power supply backup power surge protection IT power distribution",
 
   // Storage and servers
   "dellemc-storage": "PowerEdge PowerVault PowerStore Unity server storage SAN",
