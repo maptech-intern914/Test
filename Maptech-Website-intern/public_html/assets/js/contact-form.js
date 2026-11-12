@@ -23,7 +23,7 @@
   var files = [];
   var links = [];
   var maxUploadSize = 10 * 1024 * 1024;
-  var allowedFileExtensions = /\.(pdf|docx|jpe?g|png|webp)$/i;
+  var allowedFileExtensions = /\.(pdf|docx|xls|xlsx|jpe?g|png|webp)$/i;
   var characterLimits = {
     name: 100,
     position: 100,
@@ -36,7 +36,7 @@
     form.elements[fieldName].maxLength = characterLimits[fieldName];
   });
 
-  fileInput.accept = '.pdf,.docx,.jpg,.jpeg,.png,.webp';
+  fileInput.accept = '.pdf,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.webp';
 
   function showResult(isSuccess, message) {
     resultDialog.classList.toggle('is-error', !isSuccess);
@@ -108,7 +108,7 @@
     });
     if (rejectedFiles.length) {
       fileInput.value = '';
-      status.textContent = 'Only PDF, DOCX, JPG, JPEG, PNG, and WEBP files can be attached.';
+      status.textContent = 'Only PDF, DOCX, XLS, XLSX, JPG, JPEG, PNG, and WEBP files can be attached.';
       status.classList.add('is-error');
     }
     renderFiles();

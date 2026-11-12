@@ -296,7 +296,7 @@ class MaptechWebsiteTests(unittest.TestCase):
             By.ID, "maptech-attachment-input"
         )
         with tempfile.TemporaryDirectory(prefix="maptech-selenium-") as directory:
-            attachment = Path(directory) / "selenium-test-attachment.txt"
+            attachment = Path(directory) / "selenium-test-attachment.xlsx"
             attachment.write_text("Local Selenium attachment test.\n", encoding="utf-8")
             attachment_input.send_keys(str(attachment))
 
@@ -305,7 +305,7 @@ class MaptechWebsiteTests(unittest.TestCase):
                 (By.CSS_SELECTOR, "#maptech-attachment-list li")
             )
         )
-        self.assertIn("selenium-test-attachment.txt", selected_file.text)
+        self.assertIn("selenium-test-attachment.xlsx", selected_file.text)
         self.assertEqual(
             len(self.driver.find_elements(By.CSS_SELECTOR, "#maptech-attachment-list li")),
             1,

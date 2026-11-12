@@ -14,7 +14,7 @@ This document describes the contact form and testimonial integrations used by th
 
 1. Open a page's Contact Us section and enter the required contact and inquiry details.
 2. Select **Sales & Product Inquiries** or **Technical Support**. The selected service determines which FormSubmit endpoint receives the inquiry.
-3. Optionally attach PDF, DOCX, JPG/JPEG, PNG, or WEBP files, or add HTTP/HTTPS file-sharing links. The combined attachment size limit is 10 MB.
+3. Optionally attach PDF, DOCX, Excel XLS/XLSX, JPG/JPEG, PNG, or WEBP files, or add HTTP/HTTPS file-sharing links. The combined attachment size limit is 10 MB.
 4. Submit the form. A status message and result dialog report the submission outcome.
 
 ### How It Is Implemented
